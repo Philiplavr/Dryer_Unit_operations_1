@@ -124,7 +124,7 @@ def analyze_excel(filename):
         derivatives[f'dx_dt_{col}'] = dx_dt
 
     # Save derivative to Excel
-    output_filename = '../derivatives_output.xlsx'
+    output_filename = './derivatives_output.xlsx'
     derivatives.to_excel(output_filename, index=False)
     print(f"\n Derivatives saved to '{output_filename}'")
 
