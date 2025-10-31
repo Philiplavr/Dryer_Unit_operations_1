@@ -87,16 +87,6 @@ Processes an Excel file with multiple data columns:
 # Analyze your drying data
 analyze_excel('drying_data_file_name.xlsx')
 
-## File Structure
-
-project/
-├── drying_analysis.py    # Main analysis script
-├── your_data_file.xlsx   # Input data (example)
-├── plots/                # Generated plots folder
-│   ├── x1.png
-│   ├── x2.png
-│   └── ...
-└── derivatives_output.xlsx  # Output derivatives
 
 ## Model Details
 
